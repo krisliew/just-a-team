@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import DropZone from './uploadBtn';
+import Db from './db';
 
 function App() {
   return (
