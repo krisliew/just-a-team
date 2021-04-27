@@ -17,7 +17,10 @@ class DropZone extends Component{
   render(){
     return (
       <DropzoneArea
+        filesLimit={10}
         onChange={this.handleChange.bind(this)}
+        acceptedFiles={['image/jpeg', 'video/mp4']}
+        maxFileSize={5000000}
         />
     )
   }
